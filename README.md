@@ -8,3 +8,6 @@ The way this works is simple. You need to start by naming your string, then prov
 The result will be generated in the same directory where you placed the script. It will be the same name as your string, with a .txt extension. The reason I made it like this, is because if you generate a huge list string, it is harder to copy and paste it from a terminal.
 
 The tutorial: https://www.w3schools.com/python/python_strings.asp
+
+# Notes
+-The script removes any duplicate words or numbers (e.g.: the fox jumps 222. the dog also jumps 123 432 222. will be "the, fox, jumps, dog, 222, 123, 432, also" or similar.)
